@@ -1,0 +1,41 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.header-logo {
+  width: 40%;
+  margin-top: 50px;
+}
+.header-description {
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+.social-login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.social-login-box {
+  width: 70%;
+  height: 4rem;
+  background-color: red;
+  border-bottom: 1px solid blue;
+  margin-top: 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > a {
+  display: inline-block;
+  margin-top: 20px;
+}
+.login-link {
+  margin-right: 40px;
+}
+.login-inquiry {
+  margin-left: 40px;
+}
