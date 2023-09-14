@@ -12,6 +12,9 @@
   margin-top: 20px;
   font-size: 1.3rem;
 }
+.header-description {
+  font-family: "Kenia";
+}
 .social-login-section {
   display: flex;
   justify-content: center;
@@ -22,20 +25,45 @@
   width: 70%;
   height: 4rem;
   background-color: red;
-  border-bottom: 1px solid blue;
   margin-top: 20px;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "NotoSansKR-B";
+  font-size: 1.15rem;
+  position: relative;
 }
 .social-login-box footer > a {
   display: inline-block;
   margin-top: 20px;
 }
-.login-link {
-  margin-right: 40px;
+.social-login-box:first-child {
+  background-color: #ffe812;
 }
-.login-inquiry {
-  margin-left: 40px;
+.social-login-box:nth-child(2) {
+  background-color: #73d085;
+}
+.social-login-box:last-child {
+  background-color: black;
+  color: white;
+}
+.social-kakao {
+  width: 2.3rem !important;
+  position: absolute !important;
+  left: 21.2% !important;
+}
+.social-login-box > img {
+  width: 1.7rem;
+  position: absolute;
+  left: 22%;
+}
+
+footer > a {
+  display: inline-block;
+  margin-top: 25px;
+  font-family: "NotoSansKR-B";
+}
+.login-link {
+  margin-right: 120px;
 }

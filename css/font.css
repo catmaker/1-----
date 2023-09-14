@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Kenia";
+  src: url(/font/Kenia-Regular.ttf);
+}
+@font-face {
+  font-family: "NotoSansKR-V";
+  src: url(/font/NotoSansKR-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "NotoSansKR-B";
+  src: url(/font/NotoSansKR-Bold.ttf);
+}
