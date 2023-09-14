@@ -8,6 +8,57 @@
     <link rel="stylesheet" href="/css/signUp.css" />
   </head>
   <body>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+      <header class="header-container">
+        <p>회원가입</p>
+      </header>
+      <section class="id">
+        <form action="" name="ID">
+          <p>아이디</p>
+          <input
+            class="id-input"
+            type="text"
+            placeholder="ID를 입력해주세요."
+          />
+          <div class="id-doubleCheck"><span>중복확인</span></div>
+        </form>
+      </section>
+      <section class="password">
+        <form action="" name="PASSWORD">
+          <p>비밀번호</p>
+          <input
+            class="password-input"
+            type="text"
+            placeholder="Password를 입력해주세요."
+          />
+          <input
+            class="password-input"
+            type="text"
+            placeholder="Password를 확인해주세요."
+          />
+        </form>
+      </section>
+      <section class="email">
+        <form action="" name="EMAIL">
+          <p>이메일</p>
+          <input type="text" placeholder="이메일" />
+          <input type="text" placeholder="선택" />
+        </form>
+        <span
+          >더 안전하게 계정을 보호하려면 가입 후 <br />
+          [내정보 > 회원정보 수정]에서 이메일 인증을 진행해주세요.</span
+        >
+      </section>
+      <section class="phone-number">
+        <form action="" name="PHONE">
+          <p>휴대폰 번호</p>
+          <input class="phone-input" type="text" placeholder="휴대폰 번호" />
+          <div class="phone-authentication"><span>인증번호 받기</span></div>
+        </form>
+      </section>
+      <footer>
+        <div><a href="signUp-complate.html">가입하기</ㅁ></div>
+      </footer>
+    </div>
   </body>
 </html>

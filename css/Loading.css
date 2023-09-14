@@ -1,0 +1,10 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.header-logo {
+  width: 40%;
+  margin-top: 50px;
+}

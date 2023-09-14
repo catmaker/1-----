@@ -1,0 +1,13 @@
+.header-container {
+  text-align: center;
+}
+.id-doubleCheck {
+  display: inline-block;
+}
+.password-input {
+  display: block;
+}
+
+.phone-authentication {
+  display: inline-block;
+}
